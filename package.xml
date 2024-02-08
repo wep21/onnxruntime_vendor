@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>onnxruntime_vendor</name>
+  <version>1.17.0</version>
+  <description>onnxruntime vendor package, providing a dependency for onnxruntime.</description>
+  <maintainer email="daisuke.nishimatsu1021@gmail.com">Daisuke Nishimatsu</maintainer>
+  <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
+  <license>MIT</license> <!-- onnxruntime is MIT -->
+
+  <url type="website">https://onnxruntime.ai/</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_vendor_package</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
